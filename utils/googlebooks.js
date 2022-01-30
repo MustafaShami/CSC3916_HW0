@@ -18,7 +18,7 @@ module.exports = async (phrase) => {
             requestHeader: results.config.headers
     }
 
-    return customObject;
+    return customObject; //returning object instead of raw data
 }
 
 /*  console.log(results.data);
