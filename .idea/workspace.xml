@@ -97,8 +97,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.42" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.21" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
@@ -172,6 +172,7 @@
       <workItem from="1548093242743" duration="143000" />
       <workItem from="1611184869263" duration="359000" />
       <workItem from="1642902502108" duration="306000" />
+      <workItem from="1643581936090" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="2022 updates">
       <created>1642902521793</created>
@@ -216,6 +217,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022 updates" />
