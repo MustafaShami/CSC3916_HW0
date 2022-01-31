@@ -19,6 +19,8 @@ module.exports = async (phrase) => {
     }
 
     return customObject; //returning object instead of raw data
+    // additionally you can stringify this (above) to actually view the returned data
+    //     return JSON.stringify(customObject);
 }
 
 /*  console.log(results.data);
