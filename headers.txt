@@ -1,0 +1,23 @@
+Request Headers
+User-Agent: PostmanRuntime/7.29.0  >>> Describes the browser/tool making the call in this case Postman
+Accept: */*  >>> any data of whatever type is accepted
+Postman-Token: 678c9dcb-4ad4-411a-b1c1-027091ec78dd  >>> string that is for authorization
+Host: www.googleapis.com  >>> specifies the host and port number of the server that the request is being sent to
+Accept-Encoding: gzip, deflate, br  >>> indicates the content encoding/compression algorithm that the client accepts
+Connection: keep-alive  >>> aka persistent connection, allows TCP connection to remain open for multiple requests, helps with efficiency so that the handshake process doesn't have to be done at every request
+
+Response Headers
+Content-Type: application/json; charset=UTF-8  >>> indicates the request body format is JSON and encoded in the UTF-8 character encoding
+Vary: Origin  >>> indicates that the response is in someway dependent on the origin, this prevents caching
+Vary: X-Origin  >>> allow server to indicate any origins other than its own which are permitted to load resources
+Vary: Referer  >>> identifies the address of the web page from which the resource has been requested
+Content-Encoding: gzip  >>> lists that the server applies gzip encoding scheme
+Date: Mon, 31 Jan 2022 03:25:10 GMT  >>> date the request was sent
+Server: ESF  >>> identifies server
+Cache-Control: private  >>> indicates that a resource is user specific-can only be cached on client device
+X-XSS-Protection: 0  >>> stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.
+X-Frame-Options: SAMEORIGIN  >>> means that the page can only be embedded in a frame on a page with the same origin as itself.
+X-Content-Type-Options: nosniff  >>> instructs browser to disable content sniffing, protects against some attacks
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+                                        >>> allows a server to indicate that another network location (the "alternative service") can be treated as authoritative for that origin when making future requests.
+Transfer-Encoding: chunked  >>> specifies the form of encoding used to safely transfer the payload body to the user. Chunked means data is sent in chunks
